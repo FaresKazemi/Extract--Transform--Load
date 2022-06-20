@@ -1,7 +1,7 @@
 ##Extract ----> Transform ----> Load
-Gun incidents in the USA (2019 - 2022)
+Gun incidents in the USA
 
-
+Extract:
 Data:
 
 
@@ -55,3 +55,14 @@ File = US Holiday Dates (2004-2021).csv
         5. Day
         6. Year
 Source : https://www.kaggle.com/gsnehaa21/federal-holidays-usa-19662020
+
+Transform: what data cleaning or transformation was required.
+Null Values along with "address" was dropped for simplicity and lack of use of "address"
+
+Load: the final database, tables/collections, and why this was chosen.
+Tables were Uploaded Using the Postgres SQL Data Base.
+This was achieved by simply creating the relevant Tables through Quick.DBD, whereby the formated data frames were uploaded directly by PANDAS.
+
+Final: Two Table Of Data are ready-to-use on the SQL Data base for future Queries.
+
+Created by : Fares Kazemi
